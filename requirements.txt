@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+matplotlib
+librosa>=0.10
+scikit-learn
+torch
+onnx
+onnxruntime
+ipywidgets>=8
+huggingface_hub
+jupyterlab
