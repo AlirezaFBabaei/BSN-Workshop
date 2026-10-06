@@ -1,4 +1,5 @@
 __pycache__/
 .ipynb_checkpoints/
-head_*.onnx
-head_*.json
+bsn_head_*.onnx
+bsn_head_*.json
+bsn_workshop_data/
