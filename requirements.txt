@@ -1,0 +1,14 @@
+# Core — needed for every section
+numpy>=1.24
+scipy>=1.10
+librosa>=0.10
+soundfile>=0.12
+matplotlib>=3.7
+ipywidgets>=8.0
+
+# Section 8 only — ONNX export and its numerical check
+onnx>=1.15
+onnxruntime>=1.16
+
+# Optional — only if the data is fetched from Hugging Face instead of BSN_DATA_DIR
+huggingface_hub>=0.20
