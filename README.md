@@ -43,10 +43,6 @@ and a `manifest.json`. Point `BSN_DATA_DIR` at it, or let section 1 download it.
 `0 Normal, 1 Wheeze, 2 Crackle, 3 Both` — note that Wheeze and Crackle are the reverse of the
 usual convention.
 
-Two of the five embedding sets used (`resnet50`, `efficientnet_v2_s`) are 1000-d ImageNet
-**logits** rather than pooled features, because the head-removal step did not take effect for
-those architectures. The notebook prints a note when they are trained.
-
 ## Citation
 
 Rocha, B. M. et al. (2019). An open access database for the evaluation of respiratory sound
